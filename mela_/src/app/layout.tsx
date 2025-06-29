@@ -25,8 +25,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | DİYETİSYEN ROJDA MUSA",
-    default: " DİYETİSYEN ROJDA MUSA",
+    template: "%s | Barış Sürücü Kursu",
+    default: " Barış Sürücü Kursu",
   },
   description: " Diyetisyen Rojda Musa'nın kişisel web sitesi",
   keywords: ["Diyetisyen", "Rojda Musa", "Kişisel Web Sitesi"],
