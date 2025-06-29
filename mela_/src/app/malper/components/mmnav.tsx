@@ -15,7 +15,7 @@ function Mmmnavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/malper">Anasayfa</Nav.Link>
-            <Nav.Link href="/malper/mmavahi">Sporcu Beslenmesi</Nav.Link>
+            <Nav.Link href="/malper/mmavahi"></Nav.Link>
 
             <Nav.Link href="/malper/mmkargeh">Hastalıklar ve Beslenme</Nav.Link>
 
