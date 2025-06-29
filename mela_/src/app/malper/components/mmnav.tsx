@@ -10,7 +10,7 @@ function Mmmnavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/malper">DİYETİSYEN ROJDA MUSA</Navbar.Brand>
+        <Navbar.Brand href="/malper">BARIŞ SÜRÜCÜ KURSU</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
