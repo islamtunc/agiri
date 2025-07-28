@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: " Barış Sürücü Kursu",
   },
   description: " Diyetisyen Rojda Musa'nın kişisel web sitesi",
-  keywords: ["Diyetisyen", "Rojda Musa", "Kişisel Web Sitesi"],
+  keywords: ["Sürücü kursu", "Ağrı", "Ehliyet"],
 };
 
 export default function RootLayout({
