@@ -22,10 +22,7 @@ export default async function Layout({
       <Mmmnavbar />
       {children}
 
-      <br />
-
-       <Mmmpage />
-      <br />
+      
       <Row>
 
 
