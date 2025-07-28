@@ -177,7 +177,7 @@ export default async function Layout({
           cursor: "pointer",
           zIndex: 1000,
         }}
-        onClick={() => window.location.href = "tel:+905439161344"}
+        onClick={() => window.location.href = "tel:+905322545731"}
       >
         <Phone size={24} color="white" />
       </div>
@@ -200,7 +200,7 @@ export default async function Layout({
           cursor: "pointer",
           zIndex: 1000,
         }}
-        onClick={() => window.open("https://wa.me/905439161344", "_blank")}
+        onClick={() => window.open("https://wa.me/905322545731", "_blank")}
       >
         <MessageCircle size={24} color="white" />
       </div>
