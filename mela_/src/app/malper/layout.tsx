@@ -1,6 +1,9 @@
 // Bismillahirrahmanirahim 
 // Elhamdulillahirabbulalemin
 // Es-selatu vesselamu ala rasulina Muhammedin ve ala alihi ve sahbihi ecmain
+// SuphanAllah ul Azim ve bihamdihi 
+// Allah u Ekber velillahilhamd
+//La ilahe illallah 
 "use client";
 import { Alert, Row, Col } from "react-bootstrap";
 import Mmmnavbar from "./components/mmnav";
@@ -22,20 +25,12 @@ export default async function Layout({
       <Mmmnavbar />
       {children}
 
-      
       <Row>
-
-
-
-
-
-        
-
         <Col style={{ margin: "0 auto", maxWidth: "600px" }}>
           <ContactForm />
         </Col>
       </Row>
-       
+
       <Row>
         <Col>
           <Alert
@@ -43,11 +38,11 @@ export default async function Layout({
             style={{
               backgroundColor: "#17a2b8",
               color: "white",
-              fontSize: "0.9rem", // Daha küçük yazı boyutu
-              padding: "10px", // Daha az iç boşluk
+              fontSize: "0.9rem",
+              padding: "10px",
             }}
           >
-            Sağlıklı Beslenme
+            Ehliyet Sınıfları
           </Alert>
         </Col>
         <Col>
@@ -60,7 +55,7 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Spor
+            Direksiyon Eğitimi
           </Alert>
         </Col>
         <Col>
@@ -73,7 +68,7 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Beslenme ve Diyetetik
+            Teorik Sınav Bilgileri
           </Alert>
         </Col>
         <Col>
@@ -86,10 +81,11 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Kilo Verme
+            Sınav Stresiyle Baş Etme
           </Alert>
         </Col>
       </Row>
+
       <Row>
         <Col>
           <Alert
@@ -101,7 +97,7 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Sporcu Beslenmesi
+            Sınav Tarihleri ve Takvim
           </Alert>
         </Col>
         <Col>
@@ -114,7 +110,7 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Çocuk ve Ergen Beslenmesi
+            Yaş ve Belge Şartları
           </Alert>
         </Col>
         <Col>
@@ -127,10 +123,11 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Gebelikte Beslenme
+            Ehliyet Yenileme
           </Alert>
         </Col>
       </Row>
+
       <Row>
         <Col>
           <Alert
@@ -142,7 +139,7 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Beden Kitle İndeksi
+            Sınav Hazırlık Materyalleri
           </Alert>
         </Col>
         <Col>
@@ -155,19 +152,20 @@ export default async function Layout({
               padding: "10px",
             }}
           >
-            Besin Değerleri
+            Trafik Kuralları
           </Alert>
         </Col>
       </Row>
-     
+
       <Footer />
+
       {/* Sabit Telefon İkonu */}
       <div
         style={{
           position: "fixed",
-          bottom: "20px", // Sayfanın altından 20px yukarıda
-          left: "20px", // Sayfanın solundan 20px içeride
-          backgroundColor: "blue", // Telefon ikonu için arka plan
+          bottom: "20px",
+          left: "20px",
+          backgroundColor: "blue",
           color: "white",
           borderRadius: "50%",
           width: "60px",
@@ -177,9 +175,9 @@ export default async function Layout({
           justifyContent: "center",
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           cursor: "pointer",
-          zIndex: 1000, // Üstte görünmesi için
+          zIndex: 1000,
         }}
-        onClick={() => window.location.href = "tel:+905439161344"} // Telefon numarası
+        onClick={() => window.location.href = "tel:+905439161344"}
       >
         <Phone size={24} color="white" />
       </div>
@@ -188,9 +186,9 @@ export default async function Layout({
       <div
         style={{
           position: "fixed",
-          bottom: "20px", // Sayfanın altından 20px yukarıda
-          right: "20px", // Sayfanın sağından 20px içeride
-          backgroundColor: "#25d366", // WhatsApp yeşili
+          bottom: "20px",
+          right: "20px",
+          backgroundColor: "#25d366",
           color: "white",
           borderRadius: "50%",
           width: "60px",
@@ -200,13 +198,12 @@ export default async function Layout({
           justifyContent: "center",
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           cursor: "pointer",
-          zIndex: 1000, // Üstte görünmesi için
+          zIndex: 1000,
         }}
-        onClick={() => window.open("https://wa.me/905439161344", "_blank")} // WhatsApp numarası
+        onClick={() => window.open("https://wa.me/905439161344", "_blank")}
       >
         <MessageCircle size={24} color="white" />
       </div>
-     
     </div>
   );
-}    
+}
