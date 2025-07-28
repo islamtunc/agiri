@@ -10,7 +10,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import BasicExample from "./components/mmslide";
-import { Alert, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 function ContainerFluidExample() {
   return (
@@ -27,22 +27,19 @@ function ContainerFluidExample() {
             }}
           >
             <Card.Body>
-              <Card.Title>Sağlıklı Yaşamın Yolculuğuna Hoş Geldiniz</Card.Title>
+              <Card.Title>Sürücü Kursumuza Hoş Geldiniz</Card.Title>
               <Card.Text>
                 <br />
-                Beslenme, sadece ne yediğimiz değil, nasıl hissettiğimizin de bir yansımasıdır.
+                Ehliyet sahibi olmak artık çok kolay! Alanında uzman eğitmenlerimiz ve modern araçlarımızla sizi hem teorik hem pratik olarak hazırlıyoruz.
                 <br />
                 <br />
-                Bilimsel temellere dayalı, kişiye özel beslenme planlarıyla hem bedeninizi hem de yaşam kalitenizi dönüştürmek mümkün.
-                <br />
-                <br />
-                Merak ettiğiniz ve doğru bildiğiniz beslenme ve sağlık bilgileri için sitemizi takip edin.
+                Kursumuza katılarak güvenli sürüş becerileri kazanabilir, hayalinizdeki ehliyete kısa sürede ulaşabilirsiniz.
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col xs={12} md={4} className="mb-4 d-flex justify-content-center">
-       <Image src="/rjd.jpg" fluid />
+          <Image src="/ehliyet.jpg" fluid />
         </Col>
         <Col xs={12} md={4} className="mb-4">
           <Card
@@ -55,23 +52,15 @@ function ContainerFluidExample() {
             }}
           >
             <Card.Body>
-              <Card.Title>Merhaba</Card.Title>
+              <Card.Title>Biz Kimiz?</Card.Title>
               <Card.Text>
                 <p>
-                  Ben Diyetisyen Rojda Musa, bu yolculukta size rehberlik etmek
-                  için buradayım. Kilo yönetimi, hastalıklarda beslenme, sporcu
-                  beslenmesi ve sürdürülebilir yaşam tarzı değişiklikleriyle
-                  hedeflerinize ulaşmanız için yanınızdayım.
+                  Yılların verdiği deneyimle, binlerce adayın ehliyet sahibi olmasına katkıda bulunduk. Modern sınıflarımız, profesyonel eğitmen kadromuz ve birebir direksiyon derslerimizle başarıyı garantiliyoruz.
                 </p>
                 <br />
                 <p>
-                  Gerçek sonuçlar için güvenilir bilgi, samimi iletişim ve
-                  sürdürülebilir çözümler arıyorsanız doğru yerdesiniz. Online
-                  Diyet ve Beslenme danışmanlığı için iletişim seçeneklerinden
-                  bizimle iletişime geçiniz.
+                  Kayıt ve eğitim süreci hakkında bilgi almak için bizimle iletişime geçebilirsiniz. Ehliyet almak hiç bu kadar kolay olmamıştı!
                 </p>
-                <br />
-                <p>Sağlıklı bir geleceğe birlikte adım atalım.</p>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -81,57 +70,54 @@ function ContainerFluidExample() {
       <Row>
         <Col>
           <BasicExample
-            nav="Hastalıklar ve Beslenme"
-            nivis="Her hastalığın kendine özel beslenmesi bulunmaktadır ve sahip olunan hastalığa göre özel diyet içerikleri uygulanmalıdır. Hastalıklar ve Beslenme için detaylı bilgilere yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmkargeh"
-            wene="/hsbs.jpg"
+            nav="Ehliyet Sınıfları"
+            nivis="A, A2, B, C ve D sınıfı ehliyetler hakkında detaylı bilgi alın. Hangi sınıf size uygun? Başvuru şartları, yaş kriterleri ve daha fazlası..."
+            cih="/siniflar"
+            wene="/ehliyet-siniflari.jpg"
           />
         </Col>
-
         <Col>
           <BasicExample
-            nav="Psikoloji ve Beslenme"
-            nivis="Zaman zaman duygu durumlarımız değişiklik gösterebilmektedir ve bu durumda beslenme alışkanlıklarımızda değişebilmekte ve sağlıksız bir beslenme çeşidine yönelmekteyiz. Bu durumlarla nasıl başa çıkmalıyız? Detaylara yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmkinc"
-            wene="/psbs.jpg"
+            nav="Direksiyon Eğitimi"
+            nivis="Birebir uygulamalı direksiyon eğitimlerimiz ile trafikte kendinize güvenin. Uzman eğitmenlerle öğrenin, sınavda başarınız garanti olsun!"
+            cih="/direksiyon-egitimi"
+            wene="/direksiyon.jpg"
           />
         </Col>
-
         <Col>
           <BasicExample
-            nav="Diyet Çeşitleri"
-            nivis="Belirli hastalık ve beslenme tarzlarında yapılan diyet farklılık gösterebilmektedir. Bazen yağdan, bazen karbonhidrattan ya da proteinden zengin beslenmeler öne çıkabilmektedir. Hangi hastalık durumunda hangi diyet çeşidini tercih etmeliyiz sorusu için detaylı bilgilere diyet çeşitleri yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmwesayit"
-            wene="/mmdy.jpg"
+            nav="Teorik Sınav Desteği"
+            nivis="Teorik sınavdan korkmayın! Güncel müfredata uygun ders anlatımı, çıkmış sorular ve deneme testleri ile yanınızdayız."
+            cih="/teorik-sinav"
+            wene="/teorik.jpg"
           />
         </Col>
       </Row>
+
       <br />
       <Row>
         <Col>
           <BasicExample
-            nav="Sporcu Beslenmesi"
-            nivis="Spor ve Beslenme birbirinden ayrılmaz bir ikilidir ve her spor çeşidinde beslenme farklılık gösterebilmektedir. Detaylı bilgilere spor ve beslenme yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmavahi"
-            wene="/spbs.jpg"
+            nav="Kayıt Süreci"
+            nivis="Sürücü kursumuza nasıl kayıt olunur? Gerekli belgeler, yaş şartları ve kayıt takvimi hakkında bilgi almak için tıklayın."
+            cih="/kayit"
+            wene="/kayit.jpg"
           />
         </Col>
-
         <Col>
           <BasicExample
-            nav="Çocuk ve Ergen"
-            nivis="Her yaş kategorisi farklı bir beslenme programı içermektedir. Belirli yaşlarda alınan vitamin ve mineraller önem göstermektedir. Çocuk ve ergenlerde beslenmede detaylı bilgilere yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmhewcedari"
-            wene="/ce.jpg"
+            nav="Fiyat ve Kampanyalar"
+            nivis="Uygun fiyatlarımız ve dönemsel kampanyalarımızla ehliyet sahibi olmak artık çok daha ekonomik! Detaylar için bizi arayın."
+            cih="/fiyatlar"
+            wene="/fiyat.jpg"
           />
         </Col>
-
         <Col>
           <BasicExample
-            nav="Sağlıklı Tarifler"
-            nivis="Yaptığımız öğün sayısı ve aldığımız kalori kadar yediğimiz öğünlerin besin içerikleri de önemlidir. En sağlıklı beslenme tariflerine yazılarımızdan ulaşabilirsiniz."
-            cih="/malper/mmkedkar"
-            wene="/psbs.jpg"
+            nav="Sık Sorulan Sorular"
+            nivis="Ehliyet almak isteyen adayların en çok merak ettiği soruları burada derledik. Kafanızdaki tüm soruların cevabı burada!"
+            cih="/sss"
+            wene="/sss.jpg"
           />
         </Col>
       </Row>
