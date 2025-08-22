@@ -1,7 +1,0 @@
-
-
-
-
-cd mela_
-npm run dev  
-localhost:3000   
